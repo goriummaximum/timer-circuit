@@ -1,0 +1,168 @@
+{
+  "uuid": "f58d1f27e6eb745ab40d787a23ea31cb",
+  "path": "Offline/TIMER_CIRCUIT",
+  "name": "TIMER_CIRCUIT",
+  "content": "",
+  "created_at": "2020-08-31 17:51:55",
+  "updated_at": "2020-09-07 23:56:58",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "00acbf8ab1a5146213b9c1aa2fe1eb67",
+      "title": "TIMER_SCHEM",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fc3c1fc3635a4280b83af55487a326a6": 1,
+        "f19fa6865d534d6a9c254ab9f6d3c7e8": 1,
+        "c8d11f42f6e94e6e9308c9652d3a7340": 1,
+        "3a7ce2ae2d4442b0a2601da8b4979dcc": 2,
+        "d7eeac7fe5a04436a3956fc50e3b24b3": 1,
+        "90b36938e9594d889cf9bd5fd199c9fa": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Plug in",
+          1,
+          "HEADER 2.54 1X2P",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2a7416e959224e399e63e40aa3c1f322",
+            "uuid": "3a7ce2ae2d4442b0a2601da8b4979dcc"
+          }
+        ],
+        [
+          "Load out",
+          1,
+          "HEADER 2.54 1X2P",
+          "P2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2a7416e959224e399e63e40aa3c1f322",
+            "uuid": "3a7ce2ae2d4442b0a2601da8b4979dcc"
+          }
+        ],
+        [
+          "Capacitor",
+          1,
+          "GENERIC CAPACITOR",
+          "C1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "77dc05bcd56340e09244c4dbc2707925",
+            "uuid": "90b36938e9594d889cf9bd5fd199c9fa"
+          }
+        ],
+        [
+          "XY-J02",
+          1,
+          "CONN-TH_M9848-1X4P",
+          "CN2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C492605",
+            "BOM_Manufacturer": "XFCN",
+            "BOM_Manufacturer Part": "M9848-1x4P",
+            "puuid": "0958f764e09649efa73f906fdc378e98",
+            "uuid": "c8d11f42f6e94e6e9308c9652d3a7340"
+          }
+        ],
+        [
+          "DIODE",
+          1,
+          "DIODE-1N4148",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "b470404805694a8c8232625b4f74859a",
+            "uuid": "d7eeac7fe5a04436a3956fc50e3b24b3"
+          }
+        ],
+        [
+          "XY-J02",
+          1,
+          "CONN-TH_M9848-1X3P",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C492604",
+            "BOM_Manufacturer": "XFCN",
+            "BOM_Manufacturer Part": "M9848-1x3P",
+            "puuid": "5f712828e03e40feb266e29fa8e97185",
+            "uuid": "f19fa6865d534d6a9c254ab9f6d3c7e8"
+          }
+        ],
+        [
+          "JZ-53E13",
+          1,
+          "JZ-53E13",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8ee1ac635d6e4461949252a24bedfd56",
+            "uuid": "fc3c1fc3635a4280b83af55487a326a6"
+          }
+        ]
+      ],
+      "updateTime": 1599410103,
+      "createTime": 1598871118,
+      "histories": [],
+      "created_at": "2020-08-31 17:51:58",
+      "updated_at": "2020-09-06 23:35:03"
+    },
+    {
+      "uuid": "aedbb154183a7b333a900c888751fc2a",
+      "puuid": "f58d1f27e6eb745ab40d787a23ea31cb",
+      "title": "TIMER_PCB",
+      "filename": "TIMER_PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "77dc05bcd56340e09244c4dbc2707925": 1,
+        "b470404805694a8c8232625b4f74859a": 1,
+        "2a7416e959224e399e63e40aa3c1f322": 2,
+        "0958f764e09649efa73f906fdc378e98": 1,
+        "5f712828e03e40feb266e29fa8e97185": 1,
+        "8ee1ac635d6e4461949252a24bedfd56": 1
+      },
+      "BOM": [],
+      "updateTime": 1599497818,
+      "createTime": 1598872853,
+      "histories": [],
+      "created_at": "2020-08-31 18:20:53",
+      "updated_at": "2020-09-07 23:56:58"
+    }
+  ],
+  "sort": [
+    "00acbf8ab1a5146213b9c1aa2fe1eb67",
+    "4d05535f3f7f81182c164c6b2adcd700"
+  ],
+  "title": "TIMER_CIRCUIT",
+  "foldername": "TIMER_CIRCUIT",
+  "schfilename": "TIMER_CIRCUIT.json",
+  "schfilemtime": 1599410103532
+}
